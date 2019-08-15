@@ -1,4 +1,4 @@
-PageRank algorithm
+#PageRank algorithm
 
 This program runs the PageRank algorithm, with a web graph as its data source. It is implemented with OpenMP parallelism,
 which must be installed to run the program. Running the program will produce a results table in the terminal window,
