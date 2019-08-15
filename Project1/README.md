@@ -4,10 +4,11 @@ This program runs the PageRank algorithm, with a web graph as its data source. I
 which must be installed to run the program. Running the program will produce a results table in the terminal window,
 which lists the top scoring pages and their scores. The page graph file must be formatted in the following way:
 
-\# Directed graph (each unordered pair of nodes is saved once): 8-webpages.txt
-\# Just an example
-\# Nodes: 8 Edges: 17
-\# FromNodeId ToNodeId
+~~~
+# Directed graph (each unordered pair of nodes is saved once): 8-webpages.txt
+# Just an example
+# Nodes: 8 Edges: 17
+# FromNodeId ToNodeId
 0 1
 0 2
 1 3
@@ -15,6 +16,7 @@ which lists the top scoring pages and their scores. The page graph file must be 
 2 1
 3 4
 ..
+~~~
 
 Compiling the program is done by running the Makefile, which automatically links the .c and .h files and
 creates an executable 'PageRank.exe'.
@@ -28,10 +30,12 @@ The executable requires a number of command line arguments to be specified at ru
 
 
 EXAMPLE
+~~~
 ~$ ./pageRank.exe web-NotreDame.txt 10 0.85 1e-9 5
+~~~
 Typing this command after compiling will run the program and produce the following results:
 
-
+~~~
 Loading web graph web-NotreDame.txt...
 -----------------Graph info----------------
 Number of nodes:                325729
@@ -59,3 +63,4 @@ Page rank iterations: 0.572468
 Sorting top pages:    0.011383
 Total:                1.019416
 -------------------------------------------
+~~~
