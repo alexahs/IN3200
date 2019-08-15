@@ -4,10 +4,10 @@ This program runs the PageRank algorithm, with a web graph as its data source. I
 which must be installed to run the program. Running the program will produce a results table in the terminal window,
 which lists the top scoring pages and their scores. The page graph file must be formatted in the following way:
 
-# Directed graph (each unordered pair of nodes is saved once): 8-webpages.txt
-# Just an example
-# Nodes: 8 Edges: 17
-# FromNodeId ToNodeId
+\# Directed graph (each unordered pair of nodes is saved once): 8-webpages.txt
+\# Just an example
+\# Nodes: 8 Edges: 17
+\# FromNodeId ToNodeId
 0 1
 0 2
 1 3
